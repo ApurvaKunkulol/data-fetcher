@@ -1,0 +1,43 @@
+# Data Fetcher(& processor)
+This project simply fetches data from external API like Shopify and process it to
+
+## Description
+This project will help you fetch data  from APIs like Shopify and process the resultant data to extract only relevant
+pieces to be sent as per the user's requirement.
+
+### Dependencies
+All dependencies have been listed in the requirements.txt
+
+#### Execution
+
+1. Make sure that you have virtualenv installed on your machine. Preferably also install virtualenvwrapper so that
+activation/deactivation can be done in a simple and straightforward manner.
+
+            ##### installation instructions: https://virtualenvwrapper.readthedocs.io/en/latest/install.html
+
+2. To install other dependencies, use the command:
+            ##### pip install -r requirements.txt
+
+3. Navigate to the start of the source code i.e. your location should be at the "Data backup assg" folder.
+   Use the command:            ##### flask run --debug
+   to run the server and then, use the following GET requests to trigger and process the outputs.
+
+   i. To fetch data from external source: http://127.0.0.1:5000/fetch-data
+      This will also trigger the processing of data in order to show all available book titles in the store.
+
+   ii. To retrieve processed data containing all book titles: http://127.0.0.1:5000/fetch-processed-data
+       This will give you a list of all available book titles.
+
+4. I've also attached a POSTMAN collection to aid the user/developer to use the API Endpoints. Please import and use
+   them.
+
+
+## Author(s)
+
+Contributor(s) name and contact info:
+Apurva Kunkulol: kunkulol.apurva@gmail.com
+
+
+## License
+
+This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the LICENSE file for details.
