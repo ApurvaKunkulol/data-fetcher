@@ -1,0 +1,1 @@
+date_frmt = "%Y-%m-%d %H:%M:%S"

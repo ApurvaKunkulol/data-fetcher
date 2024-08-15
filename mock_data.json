@@ -1,0 +1,26 @@
+{
+  "products":[{
+    "id": "112355435553423",
+    "title": "Little Red Riding Hood",
+    "author": "Charles Perault",
+    "description": "Children's story book."
+  },
+    {
+      "id": "112355435553654",
+      "title": "The Jungle Book",
+      "author": "Rudyard Kipling",
+      "description": "Children's story book."
+  },
+  {
+      "id": "112355435550987",
+      "title": "The Tale of Peter Rabbit",
+      "author": "Beatrix Potter",
+      "description": "Children's story book."
+  }],
+  "consumer":[{
+    "id": "50495640956430564",
+    "first_name": "John",
+    "last_name": "Doe",
+    "last_logged_in": "2024-08-11 06:09:00"
+  }]
+}
